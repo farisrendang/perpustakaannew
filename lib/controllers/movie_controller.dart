@@ -1,0 +1,58 @@
+import 'package:perpustakaan/models/perpus.dart';
+
+class MovieController {
+  final List<Perpus> movies = [
+    Perpus(
+      id: 1,
+      title: "Frankenstein",
+      voteAverage: 7,
+      posterPath: 'assets/frankenstein.jpg',
+      writer: 'Mary Shelley', 
+      synopsis: 'Berkisah tentang Victor, seorang ilmuwan Swiss, yang lahir di Jenewa (Geneva) dan dibesarkan orang tuanya untuk memahami dunia lewat ilmu pengetahuan. Ketika kanak-kanak, ia melihat petir menyambar pohon, lalu bertanya-tanya itukah sumber kehidupan? Apakah manusia dapat menciptakan manusia lain?', 
+      Penerbit: 'Gramedia, Oldhands Publishing, Regents Publishing', 
+      Tahun: '1818', 
+      Pinjam: 'Rp50.000',
+      Beli: 'Rp100.000', 
+      Stock: '10', 
+    ),
+    Perpus(
+      id: 2,
+      title: "Dracula",
+      voteAverage: 8,
+      posterPath: 'assets/dracula.jpeg',
+      writer: 'Bram Stoker', 
+      synopsis: 'Kisah Dracula melibatkan seorang vampir dan usahanya untuk pindah ke London dan mulai memangsa penduduk setempat . Sebuah koalisi protagonis berperan sebagai pemburu vampir dan berusaha menghentikan dan menghancurkan Count Dracula..', 
+      Penerbit: 'Archibald Constable and Company', 
+      Tahun: '1897', 
+      Pinjam: 'Rp35.000',
+      Beli: 'Rp75.000', 
+      Stock: '20', 
+    ),
+    Perpus(
+      id: 3,
+      title: "The Shining",
+      voteAverage: 8,
+      posterPath: 'assets/the_shining.jpeg',
+      writer: 'Stephen King',
+      synopsis: 'Bercerita tentang keluarga Torrance yang menjadi pengurus hotel Overlook di Pegunungan Colorado selama musim dingin.', 
+      Penerbit: 'Doubleday', 
+      Tahun: '1977', 
+      Pinjam: 'Rp40.000',
+      Beli: 'Rp77.000', 
+      Stock: '30', 
+    ),
+    Perpus(
+      id: 4,
+      title: "The Elementals",
+      voteAverage: 6,
+      posterPath: 'assets/the_elementals.jpeg',
+      writer: 'Michael McDowell',
+      synopsis: 'Mengisahkan tentang dua keluarga bangsawan tua yang terjalin dengan dua rumah bergaya Victoria di Pantai Teluk Alabama.', 
+      Penerbit: 'Valancourt Books', 
+      Tahun: '2014', 
+      Pinjam: 'Rp30.000',
+      Beli: 'Rp72.000', 
+      Stock: '40', 
+    ),
+  ];
+}
